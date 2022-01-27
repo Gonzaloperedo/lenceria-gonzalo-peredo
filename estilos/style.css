@@ -13,9 +13,14 @@ font-family: 'Quicksand', sans-serif;
 }
 
 
+
 body{
 background-color: #FFCDDD;
 
+}
+
+header{
+   width: 100%;
 }
 
 /*--Grid Layout--*/
@@ -283,6 +288,14 @@ margin-top: 120px;
 h1{
 text-align: center;
 border-radius: 50px;
-font-size: 50px;
+font-size: 2rem;
 
 }
+
+@media screen and (max-width: 540px){
+
+   h1{
+      font-size: 24px;
+   }
+}
+   
