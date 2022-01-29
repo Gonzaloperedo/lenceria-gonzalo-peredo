@@ -32,6 +32,8 @@ header{
    grid-gap: 20px;
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: repeat(3, auto);
+
+
 }
 
 
@@ -62,6 +64,19 @@ background-color: white;
    display: flex;
    align-items: center;
 }
+
+.imagen .card{
+   border:  5px solid white;
+   margin-right: 30px;
+}
+
+.card-text{
+   text-align: center;
+   font-weight: bolder;
+}
+
+
+
 
 .widget-1{
 padding: 30px;
@@ -391,6 +406,13 @@ footer a{
    margin: 0 0 16px;
 }
 
+.formulario-trabajo{
+   width: 100%;
+display: flex;   
+justify-content: center;
+}
+
+
 
 /*---pagina de mi cuenta/login--*/
 
@@ -488,6 +510,12 @@ footer a{
    0% {left: 0; top: 0;}
    25% {left: 300px; top: 0px;}
    50% {left: 0px; top: 0px;}
-   75% {left: 300px; top 0px;}
+   75% {left: 300px; top: 0px;}
    100% {left: 0; top: 0;}
 }
+
+.slider-prueba{
+   width: 450px;
+   height: 300px;
+}
+
