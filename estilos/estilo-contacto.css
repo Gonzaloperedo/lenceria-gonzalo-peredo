@@ -18,45 +18,45 @@
 
 /*----barra de navegacion---*/
 
-nav{
+nav {
     background-color: #8946A6;
     height: 102px;
-    width: 100% ;
+    width: 100%;
     border-radius: 15px;
-    }
-    
-    
-    .enlace{
+}
+
+
+.enlace {
     position: absolute;
     padding: 0 50px;
-    }
-    
-    nav ul{
+}
+
+nav ul {
     float: right;
     margin-right: 20px;
-    }
-    
-    nav ul li{
+}
+
+nav ul li {
     display: inline-block;
     line-height: 70px;
     margin: 0 5px;
     ;
-    }
-    
-    nav ul li a{
+}
+
+nav ul li a {
     font-size: 25px;
     padding: 7px 13px;
     color: white;
     border-radius: 5px;
-    }
-    
-    li a:hover{
+}
+
+li a:hover {
     background-color: #FFCDDD;
     color: black;
     transition: .5s;
-    }
-    
-    .checkbtn{
+}
+
+.checkbtn {
     font-size: 30px;
     color: #FFCDDD;
     float: right;
@@ -64,18 +64,18 @@ nav{
     margin-right: 40px;
     cursor: pointer;
     display: none;
-    }
-    
-    #check{
+}
+
+#check {
     display: none;
-    }
-    
-    @media (max-width: 886px) {
-    .checkbtn{
+}
+
+@media (max-width: 886px) {
+    .checkbtn {
         display: block;
     }
-    
-    ul{
+
+    ul {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -84,34 +84,35 @@ nav{
         left: -100%;
         text-align: center;
         transition: all 0.5s;
-    
-    
-    
+
+
+
     }
-    
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin: 0;
         line-height: 30px;
         padding: 30px;
         border: 1px solid white;
-    
+
     }
-    
-    nav ul li a{
+
+    nav ul li a {
         font-size: 20px;
-    
+
     }
-    li a:hover{
+
+    li a:hover {
         background: none;
         color: red;
     }
-    
-    #check:checked ~ ul{
-    
+
+    #check:checked~ul {
+
         left: 0;
     }
-    }
+}
 
 
 .container {
@@ -129,7 +130,7 @@ nav{
 .logo {
     text-align: center;
     font-size: 3em;
-    
+
     color: black;
 }
 
@@ -139,10 +140,14 @@ nav{
 
 
 
-.contact-wrapper > * {
+.contact-wrapper>* {
     padding: 1em;
 }
 
+.contact-wrapper{
+    width: 95%;
+    margin: 5px auto;
+}
 .contact-form {
     background: #B762C1;
     border-radius: 10px;
@@ -201,7 +206,9 @@ nav{
     margin: 10px;
 }
 
-.contact-info h4, .contact-info .ul-contacto, .contact-info p {
+.contact-info h4,
+.contact-info .ul-contacto,
+.contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
 }
@@ -211,23 +218,91 @@ nav{
     body {
         padding: 0 4em;
     }
+
     .contact-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-    .contact-wrapper > * {
+
+    .contact-wrapper>* {
         padding: 2em;
     }
+
     .contact-info h4,
     .contact-info .ul-contacto,
     .contact-info p {
         text-align: left;
     }
 
-    .footer{
-        background-color: grey;
-        margin: 10px;
-        border-radius: 10px;
-        text-align: center;
-    }
+
 }
+
+.contenedor-footer{
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 0;
+    display: grid;
+    background: black;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    border-radius: 10px;
+    color: white;
+ }
+
+ .footer2{
+    border-top: 1px solid black;
+    margin-top: 0;
+    grid-column: 1 / 5;
+    text-align: center;
+    text-decoration: none;
+    
+ }
+
+ .footer2 a{
+     color: white;
+ }
+
+ .contenedor-footer h3{
+    padding: 20px;
+    padding-left: 10px;
+    display: flex;
+    text-align: left;
+    margin: 0;
+ }
+
+ .contenedor-footer div  ul li{
+    padding: 10px;
+    display: flex;
+    text-align: center;
+ }
+
+ .contenedor-footer div ul{
+     padding-left: 0;
+ }
+
+ .footer2{
+    border-top: 1px solid black;
+    margin-top: 0;
+    grid-column: 1 / 5;
+    text-align: center;
+    text-decoration: none;
+    
+ }
+
+ .footer2 h3{
+     display: flex;
+     justify-content: center;
+     padding: 0;
+     margin: 0;
+ }
+
+ .footer2 p{
+     margin: 0;
+ }
+
+ footer{
+    margin-bottom: 0;
+   
+ }
+

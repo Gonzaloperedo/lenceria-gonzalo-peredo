@@ -27,6 +27,7 @@ header{
 .contenedor{
    width: 95%;
    margin: 5px auto;
+   margin-bottom: 0  ;
    display: grid;
    grid-gap: 20px;
    grid-template-columns: repeat(3, 1fr);
@@ -48,7 +49,7 @@ background-color: white;
 }
 .contenido{
    grid-column: 1 / 5;
-   background: palevioletred;
+   background: #B762C1;
    border-radius: 10px;
 }
 
@@ -65,7 +66,7 @@ background-color: white;
 .widget-1{
 padding: 30px;
 grid-column: 1 / 2;
-grid-row: 3 / 4;
+grid-row: 3 / 5;
 background: #8946A6;
 border-radius: 10px;
 text-align: center;
@@ -74,7 +75,7 @@ text-align: center;
 
 .widget-2{
    grid-column: 2 / 3 ;
-   grid-row: 3 / 4;
+   grid-row: 3 / 5;
    padding: 30px;
    background: #8946A6;
    border-radius: 10px;
@@ -83,8 +84,8 @@ text-align: center;
 }
 .sidebar{
    grid-column: 3 / 5;
-   grid-row: -3 / -1;
-   background: indianred;
+   grid-row: 2 / 5;
+   background: #B762C1;
    border-radius: 10px;
    font-family: 'Dongle', sans-serif;
    text-align: center;
@@ -95,7 +96,7 @@ text-align: center;
    grid-row: 4 / 5;
    grid-column: 1 / 5;
    text-align: center;
-   background: lightslategray;
+   background: black;
    border-radius: 10px;
 }
 
@@ -146,13 +147,13 @@ grid-row: 1 / 2;
       margin-bottom: 20px;
    }
    .contenedor footer{
-   grid-row: 5 / 6;
+   grid-row: 6 / 7;
    
    
    
-   }
+   }  
    .contenedor .footer2{
-      border-top: 1px solid black;
+      border-top: 1px solid white;
       margin-top: 0;
    }
    
@@ -348,3 +349,129 @@ font-size: 2rem;
    }
 }
    
+
+
+
+/*pagina de Mi cuenta*/
+
+
+
+footer{
+   margin-bottom: 0;
+   width: 100%;
+   color: white;
+
+}
+
+footer a{
+   color: white;
+}
+
+
+/*---pagina nosotros--*/
+
+.contenedor-nosotros{
+   width: 95%;
+   margin: 20px auto;
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: 30% auto;
+   grid-template-rows: auto;
+}
+
+.titulo-nosotros{
+
+   text-align: center;
+}
+
+.contenido-nosotros h2{
+   padding-left: 10px;
+   padding-bottom: 5px;
+   border-bottom: 1px solid rgba(45,45,45,0.5);
+   margin: 0 0 16px;
+}
+
+
+/*---pagina de mi cuenta/login--*/
+
+.contenedor-micuenta{
+   width: 95%;
+   margin: 20px auto;
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto;
+}
+
+.contenedor-micuenta .login-box{
+   grid-column: 2 / 3;
+}
+
+
+
+.login-box {
+   width: 320px;
+   height: 420px;
+   color: black;
+   text-align: center;
+   }
+ 
+ 
+ 
+ .login-box h1 {
+   margin: 0;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 48px;
+ }
+ 
+ .login-box label {
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   display: block;
+ }
+ 
+ .login-box input {
+   width: 100%;
+   margin-bottom: 20px;
+ }
+ 
+ .login-box input[type="text"], .login-box input[type="password"] {
+   border: none;
+   border-bottom: 1px solid #fff;
+   background: transparent;
+   outline: none;
+   height: 40px;
+   color: #fff;
+   font-size: 16px;
+ }
+ 
+ .login-box input[type="submit"] {
+   border: none;
+   outline: none;
+   height: 40px;
+   background: #8946A6;
+   color: #fff;
+   font-size: 18px;
+   border-radius: 20px;
+ }
+ 
+ .login-box input[type="submit"]:hover {
+   cursor: pointer;
+   background: #B762C1;
+   color: #000;
+ }
+ 
+ .login-box a {
+   text-decoration: none;
+   font-size: 12px;
+   line-height: 20px;
+   color: black;
+ }
+ 
+ .login-box a:hover {
+   color: #fff;
+ }
+
+
