@@ -15,7 +15,7 @@ font-family: 'Quicksand', sans-serif;
 
 
 body{
-background-color: #FFCDDD;
+background-color: #FFCDDD !important;
 
 }
 
@@ -205,6 +205,10 @@ width: 100% ;
 border-radius: 15px;
 }
 
+.navbar{
+   background-color: #8946A6;
+height: 70px;
+}
 
 .enlace{
 position: absolute;
