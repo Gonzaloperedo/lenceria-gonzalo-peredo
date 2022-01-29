@@ -475,3 +475,19 @@ footer a{
  }
 
 
+ .logo-definitivo{
+   animation-name: movimiento-logo;
+   animation-duration: 10s;
+   position: relative;
+   animation-timing-function: linear;
+   animation-iteration-count: 1;
+
+}
+
+@keyframes movimiento-logo {
+   0% {left: 0; top: 0;}
+   25% {left: 300px; top: 0px;}
+   50% {left: 0px; top: 0px;}
+   75% {left: 300px; top 0px;}
+   100% {left: 0; top: 0;}
+}
