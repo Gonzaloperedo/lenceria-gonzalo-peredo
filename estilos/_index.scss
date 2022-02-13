@@ -14,6 +14,14 @@
 						 "footer footer footer";
 }
 
+@mixin contenedores-hijos {
+	border-radius: 4px;
+	color: #fff;
+	background: #B762C1;
+	font-size: 28px;
+
+}
+
 .contenedor > div,
 .contenedor .header,
 .contenedor .contenido,
@@ -25,8 +33,7 @@
 }
 
 .contenedor .header {
-	background: #B762C1;
-	color: #fff;
+@include contenedores-hijos()
 	grid-area: header;
 }
 
@@ -45,19 +52,20 @@ display: flex;
 
 .contenedor .sidebar {
 	grid-column: 3 / 4;
-	background: #B762C1;
 	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	min-height: 100px;
 	grid-area: sidebar;
+	@include contenedores-hijos()
+
 }
 
 .contenedor .widget-1,
 .contenedor .widget-2 {
-	background: #B762C1;
-	color: #fff;
+	@include contenedores-hijos()
+
 	height: 100px;
 	text-align: center;
 	display: flex;
@@ -67,10 +75,14 @@ display: flex;
 
 .contenedor .widget-1 {
 	grid-area: widget-1;
+	@include contenedores-hijos()
+
 }
 
 .contenedor .widget-2 {
 	grid-area: widget-2;
+	@include contenedores-hijos()
+
 }
 
 

@@ -141,8 +141,10 @@ nav ul li a:hover {
 }
 
 .contenedor .header {
-  background: #B762C1;
+  border-radius: 4px;
   color: #fff;
+  background: #B762C1;
+  font-size: 28px;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -167,7 +169,6 @@ nav ul li a:hover {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3 / 4;
-  background: #B762C1;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -183,12 +184,18 @@ nav ul li a:hover {
   -ms-grid-row-span: 2;
   -ms-grid-column: 3;
   grid-area: sidebar;
+  border-radius: 4px;
+  color: #fff;
+  background: #B762C1;
+  font-size: 28px;
 }
 
 .contenedor .widget-1,
 .contenedor .widget-2 {
-  background: #B762C1;
+  border-radius: 4px;
   color: #fff;
+  background: #B762C1;
+  font-size: 28px;
   height: 100px;
   text-align: center;
   display: -webkit-box;
@@ -206,12 +213,20 @@ nav ul li a:hover {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: widget-1;
+  border-radius: 4px;
+  color: #fff;
+  background: #B762C1;
+  font-size: 28px;
 }
 
 .contenedor .widget-2 {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: widget-2;
+  border-radius: 4px;
+  color: #fff;
+  background: #B762C1;
+  font-size: 28px;
 }
 
 .footer {
