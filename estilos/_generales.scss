@@ -31,10 +31,13 @@ nav {
         position: absolute;
         padding: 0 50px;
       
+      
     }
 
     .logo-definitivo{
+      
         height: 102px;
+      
     }
 
     ul {
@@ -137,3 +140,15 @@ nav {
     }
 }
 
+
+@media (max-width: 425px){
+.enlace{
+    padding-left: 0 !important;
+}
+
+.checkbtn{
+    margin-right: 20px;
+}
+   
+
+}
