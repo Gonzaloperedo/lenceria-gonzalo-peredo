@@ -119,6 +119,7 @@ nav ul li a:hover {
 @media (max-width: 425px) {
   .enlace {
     padding-left: 0 !important;
+    padding-right: 10px !important;
   }
   .checkbtn {
     margin-right: 20px;
